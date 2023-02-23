@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-meqa
+  namespace: jvm-build-rcst-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:9daa0c908f5bb6bc9ddd1e8ccf33b6ebfea08b71a7f85151966656e0a386258a
+        name: container-image
+        resources: {}
+status: {}
