@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-meqa
     app.kubernetes.io/part-of: jvm-build-suite-application-vktw
-  name: jvm-build-suite-componentyrft
+  name: jvm-build-suite-componentnepy
   namespace: jvm-build-rcst-tenant
 spec:
   port:

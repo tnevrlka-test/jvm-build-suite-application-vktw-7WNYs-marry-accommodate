@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-meqa
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:760c0d9cc33f4bfb91cd6ec040b711a0
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:9daa0c908f5bb6bc9ddd1e8ccf33b6ebfea08b71a7f85151966656e0a386258a
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
